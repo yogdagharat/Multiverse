@@ -26,7 +26,7 @@ The focus of this study is to understand the interconnectedness of systemic cris
 
 The steps are:
  1. [Setting up Docker Environment](#step-1---setting-up-docker-environment)
- 2. [Cloning the Git Repository](#step-2---cloning-repo)
+ 2. [Cloning the Git Repository](#step-2---cloning-the-git-repository)
  3. [Running Docker](#step-3---running-docker)
  4. [Setting up the Jupyter Notebook](#step-4---setting-up-the-jupyter-notebook)
  5. [Running the Analysis](#step-5---running-the-analysis)
