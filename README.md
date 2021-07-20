@@ -1,21 +1,28 @@
-# Multiverse
+# Systemic Crisis Analysis
 
 ## Introduction
 
-What is Systemic Risk?
-Systemic risk refers to the breakdown of the entire financial system due to a domino effect of negative events cascading to a severe economic downturn.
-Systemic risk, commonly viewed as a ‘domino effect’ can be defined as the risk associated with the collapse or failure of a company, industry, financial institution, or an entire economy. It is the risk of a major failure of a financial system, whereby a crisis occurs when providers of capital, i.e., depositors, investors, and capital markets, lose trust in the users of capital, i.e., banks, borrowers, leveraged investors, etc. or in a given medium of exchange (US dollar, Japanese yen, gold, etc.). It is inherent in a market system, and hence unavoidable.
+What is **Systemic Crisis**? 
 
+Economists call systemic risk and systemic crisis extremely danger destructive troubles that menace (risk) or affect (crisis) the whole global sous financial and monetary system.
+
+Such cataclysmic avalanches can entail
+- A meltdown of most financial instruments and institutions,
+- With dire negative effects on the whole economic system (trade, production, spending, employment)
+
+A systemic financial or monetary crisis would result from a "domino effect" in which the collapse of an important financial institution (bank, investment or pension fund, insurance company) spread to all the worldwide financial and monetary system.
+
+The datasets **Main.xlsx** and **OECD_Euro.xlsx** used for this analysis is taken from the analysis done by Carmen Reinhart (with her coauthors Ken Rogoff, Christoph Trebesch, and Vincent Reinhart) and the OECD Public Finance Dataset respectively.
+
+The focus of this study is to understand the interconnectedness of systemic crisis to macroeconomic factors and how these influences may lead to financial crisis.
 
 ### Prerequisites
-
 
 - [Python](https://www.python.org/downloads/)
 - [Git](https://git-scm.com/downloads)
 - [Docker](https://docs.docker.com/get-docker/)
 
-### Installing
-
+### Installation
 
 The steps are:
  1. [Setting up Docker Environment](#step-1---setting-up-docker-environment)
@@ -31,10 +38,9 @@ The steps are:
 
 - Install the .dmg file (Based on the OS).
 
-- Install Docker as per the installation steps based on the OS.
+- Install Docker as per the installation steps (Based on the OS).
 
-- Check the installation. 
-
+- Check the installation and the version. 
 
 ```
 $ docker --version
@@ -50,7 +56,7 @@ $ git clone https://github.com/yogdagharat/Multiverse.git
 
 ### Step 3 - Running Docker 
 
-- Run the Jupyter Notebook Docker container from Docker Hub.
+- Run the Jupyter Notebook Docker container from the Docker Hub.
 
 ```
 $ docker run -p 8888:8888 jupyter/minimal-notebook
@@ -79,9 +85,9 @@ $ docker ps
 $ docker exec -it <container-id> /bin/bash
 ```
 
-- This will allow you to run commands on the Jupyter Notebook server through your terminal.
+- This step will allow you to run commands on the Jupyter Notebook server through your terminal.
 
-- Navigate to the code directory 
+- Navigate to the code directory.
 
 ```
 $ cd work/[DIR]
@@ -93,7 +99,7 @@ $ cd work/[DIR]
 $ pip3 install -r requirements.txt
 ```
 
-- This will install all libraries required for the source code to run.
+- This command will install all libraries required for the source code to run.
 
 - The Jupyter Notebook server is now ready to run the analysis.
 
