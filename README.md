@@ -103,7 +103,7 @@ $ pip3 install -r requirements.txt
 
 - The Jupyter Notebook server is now ready to run the analysis.
 
-### Step 4 - Running the Analysis
+### Step 5 - Running the Analysis
 
 - Run all the cells together.
 
