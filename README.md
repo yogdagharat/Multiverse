@@ -6,13 +6,9 @@ What is **Systemic Crisis**?
 
 Economists call systemic risk and systemic crisis extremely danger destructive troubles that menace (risk) or affect (crisis) the whole global sous financial and monetary system.
 
-Such cataclysmic avalanches can entail
-- A meltdown of most financial instruments and institutions,
-- With dire negative effects on the whole economic system (trade, production, spending, employment)
-
 A systemic financial or monetary crisis would result from a "domino effect" in which the collapse of an important financial institution (bank, investment or pension fund, insurance company) spread to all the worldwide financial and monetary system.
 
-The datasets **Main.xlsx** and **OECD_Euro.xlsx** used for this analysis is taken from the analysis done by Carmen Reinhart (with her coauthors Ken Rogoff, Christoph Trebesch, and Vincent Reinhart) and the OECD Public Finance Dataset respectively.
+The datasets **Main.xlsx** and **OECD_Euro.xlsx** used for this analysis are taken from the analysis done by Carmen Reinhart (with her coauthors Ken Rogoff, Christoph Trebesch, and Vincent Reinhart) and the OECD Public Finance Dataset respectively.
 
 The focus of this study is to understand the interconnectedness of systemic crisis to macroeconomic factors and how these influences may lead to financial crisis.
 
@@ -99,7 +95,7 @@ $ cd work/[DIR]
 $ pip3 install -r requirements.txt
 ```
 
-- This command will install all libraries required for the source code to run.
+- This command will install all the libraries required for the source code to run.
 
 - The Jupyter Notebook server is now ready to run the analysis.
 
