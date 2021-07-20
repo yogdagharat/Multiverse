@@ -71,7 +71,7 @@ http://127.0.0.1:8888/?token=[TOKEN].
 
 - Upload the source codes cloned from the Git repository to Jupyter Notebook.
 
-- Install all the dependencies.
+- Install all the dependencies using another terminal.
 
 ```
 $ docker ps
@@ -79,7 +79,7 @@ $ docker ps
 
 - Copy the container ID on which the Jupyter Notebook server is running.
 
-- Run the Docker exec commands on another terminal the Jupyter Notebook server.
+- Run the Docker exec commands on the Jupyter Notebook server container.
 
 ```
 $ docker exec -it <container-id> /bin/bash
